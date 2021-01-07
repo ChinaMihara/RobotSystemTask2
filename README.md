@@ -13,7 +13,7 @@
 
 色の異なるLED５つを
 
-|iro|GPIO|
+|LED|GPIO|
 |---|---|
 |赤|GPIO4|
 |黄|GPIO18|
