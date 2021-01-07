@@ -28,7 +28,7 @@
 ・Raspberry Pi 4 Model B/4GB   
 ・ブレットボード   
 ・LED(赤、黄、緑、青、白)   
-・抵抗 220Ω ×5
+・抵抗 220Ω ×5   
 ・ジャンパー線　×10  
 
 ・ROS   
@@ -51,13 +51,16 @@ $ cd scripts
 $ chmod +x led_sub.py
 $ chmod +x led_pub.py
 ```
-
+ターミナルを３つ用意し以下のコマンドをそれぞれ入力する。
+１．
 ```
 $ roscore
 ```
+２．
 ```
 $rosrun RobotSystemTask2 led_sub.py
 ```
+３．
 ```
 $rosrun RobotSystemTask2 led_pub.py
 ```
