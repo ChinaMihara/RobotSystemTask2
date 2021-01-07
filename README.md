@@ -51,18 +51,18 @@ $ cd scripts
 $ chmod +x led_sub.py
 $ chmod +x led_pub.py
 ```
-ターミナルを３つ用意し以下のコマンドをそれぞれ入力する。
+ターミナルを３つ用意し以下のコマンドをそれぞれ入力する。   
 １．
 ```
 $ roscore
 ```
 ２．
 ```
-$rosrun RobotSystemTask2 led_sub.py
+$ rosrun RobotSystemTask2 led_sub.py
 ```
 ３．
 ```
-$rosrun RobotSystemTask2 led_pub.py
+$ rosrun RobotSystemTask2 led_pub.py
 ```
 
 ---
