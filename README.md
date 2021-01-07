@@ -38,7 +38,28 @@
 
 ### 実行手順
 
-git clone 
+'''
+$ cd ~/catkin_ws/src
+$ git clone https://github.com/ChinaMihara/RobotSystemTask2.git
+$ cd RobotSystemTask2/myled
+$ make
+$ chmod +x myled.c
+$ sudo insmod myled.ko
+$ sudo chmod 666 /dev/myled0
+$ cd ..
+$ cd scripts
+$ chmod +x led_sub.py
+$ chmod +x led_pub.py
+'''
+
+$ roscore
+
+$rosrun RobotSystemTask2 led_sub.py
+
+$rosrun RobotSystemTask2 led_pub.py
+
+
 ---
 
 ### 動画
+[]()
