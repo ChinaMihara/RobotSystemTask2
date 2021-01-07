@@ -72,5 +72,5 @@ $ rosrun RobotSystemTask2 led_pub.py
 []()
 
 ---
-### LICENSE
+### ライセンス
 
