@@ -38,7 +38,7 @@
 
 ### 実行手順
 
-'''
+```
 $ cd ~/catkin_ws/src
 $ git clone https://github.com/ChinaMihara/RobotSystemTask2.git
 $ cd RobotSystemTask2/myled
@@ -50,7 +50,7 @@ $ cd ..
 $ cd scripts
 $ chmod +x led_sub.py
 $ chmod +x led_pub.py
-'''
+```
 
 $ roscore
 
