@@ -39,7 +39,7 @@
 
 ### 実行手順
 
-ワークスペースの準備
+_ワークスペースの準備_
 ```
 $ mkdir -p catkin/src
 $ cd ~/catkin_ws/src
