@@ -11,7 +11,7 @@
 
 ### 説明   
 
-色の異なるLED５つを特定のコマンドを入力すると点灯します。   
+色の異なるLED５つが特定の文字を入力すると点灯します。   
 各LEDとGPIOの接続は以下の通りです。   
 |LED|GPIO|
 |:---:|---|
@@ -30,8 +30,7 @@
 * LED(赤、黄、緑、青、白)   
 * 抵抗 220Ω ×5   
 * ジャンパー線　×10     
-* ROS   
-
+* ROS(インストール済み)   
 
 ---
 
@@ -50,15 +49,18 @@ $ cd scripts
 $ chmod +x led_sub.py
 $ chmod +x led_pub.py
 ```
+
 ターミナルを３つ用意し以下のコマンドをそれぞれ入力する。   
 １．
 ```
 $ roscore
 ```
+
 ２．
 ```
 $ rosrun RobotSystemTask2 led_sub.py
 ```
+
 ３．
 ```
 $ rosrun RobotSystemTask2 led_pub.py
@@ -66,7 +68,7 @@ $ rosrun RobotSystemTask2 led_pub.py
 ```
 r:Red  y:Yellow  g:Green  b:Blue  w:White  E:Erase >>  
 ```
-|コマンド||
+|入力文字||
 |:---:|:---:|
 |r|LED(赤)点灯|
 |y|LED(黄)点灯|
