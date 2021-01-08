@@ -25,7 +25,7 @@ if __name__ == "__main__":
     
     try:
         while not rospy.is_shutdown():
-            direction = input('r:Red  y:Yellow  g:Green  b:Blue  w:White  E:Erase>>  ')
+            direction = input('r:Red  y:Yellow  g:Green  b:Blue  w:White  E:Erase  >>  ')
             if 'r' in direction:
                 pub1.publish(True)
                 pub2.publish(False)
