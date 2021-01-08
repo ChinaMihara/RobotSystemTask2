@@ -39,13 +39,13 @@
 
 ### 実行手順
 
-**ワークスペースの準備**
+***ワークスペースの準備***
 ```
 $ mkdir -p catkin/src
 $ cd ~/catkin_ws/src
 $ catkin_init_workspace
 ```
-**ダウンロードとセットアップ**
+***ダウンロードとセットアップ***
 ```
 $ git clone https://github.com/ChinaMihara/RobotSystemTask2.git
 $ cd RobotSystemTask2/myled
@@ -58,7 +58,7 @@ $ cd scripts
 $ chmod +x led_sub.py
 $ chmod +x led_pub.py
 ```
-**実行**   
+***実行***   
 ターミナルを３つ用意し以下のコマンドをそれぞれ入力する。   
 １．
 ```
