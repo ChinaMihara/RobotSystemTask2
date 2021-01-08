@@ -29,15 +29,25 @@
 * ブレットボード   
 * LED(赤、黄、緑、青、白)   
 * 抵抗 220Ω ×5   
-* ジャンパー線　×10     
-* ROS(インストール済み)   
+* ジャンパー線　×10   
+
+以下をインストール   
+* ubuntu 20.04
+* ROS-noetic   
 
 ---
 
 ### 実行手順
 
+ワークスペースの準備
 ```
+$ mkdir -p catkin/src
 $ cd ~/catkin_ws/src
+$ catkin_init_workspace
+```
+
+ダウンロードとセットアップ
+```
 $ git clone https://github.com/ChinaMihara/RobotSystemTask2.git
 $ cd RobotSystemTask2/myled
 $ make
