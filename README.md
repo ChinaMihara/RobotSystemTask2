@@ -29,8 +29,7 @@
 * ブレットボード   
 * LED(赤、黄、緑、青、白)   
 * 抵抗 220Ω ×5   
-* ジャンパー線　×10  
-   
+* ジャンパー線　×10     
 * ROS   
 
 
@@ -67,6 +66,15 @@ $ rosrun RobotSystemTask2 led_pub.py
 ```
 r:Red  y:Yellow  g:Green  b:Blue  w:White  E:Erase >>  
 ```
+|コマンド||
+|-|:---:|
+|r|LED(赤)点灯|
+|y|LED(黄)点灯|
+|g|LED(緑)点灯|
+|b|LED(青)点灯|
+|w|LED(白)点灯|
+|E|全LED消灯|
+
 ---
 
 ### 動画
