@@ -39,13 +39,13 @@
 
 ### 実行手順
 
-・**ワークスペースの準備**
+**ワークスペースの準備**
 ```
 $ mkdir -p catkin/src
 $ cd ~/catkin_ws/src
 $ catkin_init_workspace
 ```
-・**ダウンロードとセットアップ**
+**ダウンロードとセットアップ**
 ```
 $ git clone https://github.com/ChinaMihara/RobotSystemTask2.git
 $ cd RobotSystemTask2/myled
@@ -58,33 +58,30 @@ $ cd scripts
 $ chmod +x led_sub.py
 $ chmod +x led_pub.py
 ```
-・**実行**   
+**実行**   
 ターミナルを３つ用意し以下のコマンドをそれぞれ入力する。   
 １．
 ```
 $ roscore
 ```
-
 ２．
 ```
 $ rosrun RobotSystemTask2 led_sub.py
 ```
-
 ３．
 ```
 $ rosrun RobotSystemTask2 led_pub.py
 ```
+以下の文が表示されるので特定の文字を入力する。
 ```
 r:Red  y:Yellow  g:Green  b:Blue  w:White  E:Erase >>  
 ```
-|入力文字||
-|:---:|:---:|
-|r|LED(赤)点灯|
-|y|LED(黄)点灯|
-|g|LED(緑)点灯|
-|b|LED(青)点灯|
-|w|LED(白)点灯|
-|E|全LED消灯|
+r：LED(赤)点灯
+y：LED(黄)点灯
+g：LED(緑)点灯
+b：LED(青)点灯
+w：LED(白)点灯
+E：全LED消灯
 
 ---
 
