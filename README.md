@@ -70,7 +70,3 @@ $ rosrun RobotSystemTask2 led_pub.py
 ### 動画
 
 [https://youtu.be/BJHqrDtc9TY](https://youtu.be/BJHqrDtc9TY)
-
----
-### ライセンス
-
