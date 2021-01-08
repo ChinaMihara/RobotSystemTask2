@@ -5,11 +5,11 @@ from std_msgs.msg import Bool
 
 if __name__ == "__main__":
     rospy.init_node("led_pub")
-    pub1 = rospy.Publisher("led1", Bool, queue_size=10)
-    pub2 = rospy.Publisher("led2", Bool, queue_size=10)
-    pub3 = rospy.Publisher("led3", Bool, queue_size=10)
-    pub4 = rospy.Publisher("led4", Bool, queue_size=10)
-    pub5 = rospy.Publisher("led5", Bool, queue_size=10)
+    pub1 = rospy.Publisher("led_red", Bool, queue_size=10)
+    pub2 = rospy.Publisher("led_yellow", Bool, queue_size=10)
+    pub3 = rospy.Publisher("led_green", Bool, queue_size=10)
+    pub4 = rospy.Publisher("led_blue", Bool, queue_size=10)
+    pub5 = rospy.Publisher("led_white", Bool, queue_size=10)
     
     rate= rospy.Rate(10)
 
