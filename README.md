@@ -58,7 +58,7 @@ $ cd scripts
 $ chmod +x led_sub.py
 $ chmod +x led_pub.py
 ```
-**実行**
+**実行**   
 ターミナルを３つ用意し以下のコマンドをそれぞれ入力する。   
 １．
 ```
