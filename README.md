@@ -64,7 +64,9 @@ $ rosrun RobotSystemTask2 led_sub.py
 ```
 $ rosrun RobotSystemTask2 led_pub.py
 ```
-
+```
+r:Red  y:Yellow  g:Green  b:Blue  w:White  E:Erase >>  
+```
 ---
 
 ### 動画
